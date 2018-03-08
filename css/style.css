@@ -17,6 +17,27 @@
   width: 100%;
   background: var(--color-back);
   border-bottom: 1px solid var(--color-line); }
+  .social .copy {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left; }
+    .social .copy li {
+      float: left;
+      padding: 5px; }
+      .social .copy li a {
+        color: var(--color-icons);
+        transition: 1.8s;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 100%; }
+      .social .copy li a:hover {
+        color: var(--color-hover);
+        background: var(--color-hoverback); }
+      .social .copy li i.fab {
+        float: left; }
   .social .icons {
     list-style-type: none;
     margin: 0;
